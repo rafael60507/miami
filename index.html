@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miami Vice - Sessão especial amanhã</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container topo-conteudo">
+      <img src="logo_mv.svg" alt="Logo Miami Vice" class="logo">
+
+      <div class="texto-topo">
+        <p class="chamada">Sessão especial amanhã</p>
+
+        <h1>Miami Vice estreia amanhã no cinema em uma sessão especial para fãs de ação, estilo e clássicos inesquecíveis.</h1>
+
+        <p>
+          Uma noite para reviver o clima eletrizante de Miami, com perseguições, visual marcante
+          e a atmosfera única que transformou Miami Vice em referência de estilo e adrenalina.
+          Reserve sua vaga antecipadamente e garanta seu lugar nessa estreia especial.
+        </p>
+
+        <a href="#reserva" class="botao">Reservar minha vaga</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="banner">
+      <img src="mv3.jpg" alt="Banner da sessão especial de Miami Vice" class="banner-img">
+    </section>
+
+    <section class="secao texto-centro">
+      <h2>Uma estreia para assistir na tela grande</h2>
+
+      <p>
+        Amanhã, o cinema recebe uma sessão especial de <strong>Miami Vice</strong>, uma produção
+        que une investigação, velocidade, tensão e sofisticação em uma experiência que marcou
+        época e continua atraindo fãs de ação até hoje.
+      </p>
+
+      <p>
+        Com identidade visual forte, trilha envolvente e cenas que atravessaram gerações,
+        o filme chega à programação como uma oportunidade de viver no cinema toda a intensidade
+        de uma história cercada por operações arriscadas, noites movimentadas e personagens icônicos.
+      </p>
+    </section>
+
+    <section class="galeria">
+      <div class="card-imagem">
+        <img src="mv1.jpg" alt="Cena do filme Miami Vice">
+      </div>
+
+      <div class="card-texto">
+        <h2>Sobre o filme</h2>
+
+        <p>
+          Em meio ao calor, às luzes e ao ritmo intenso de Miami, dois investigadores atuam
+          em operações de alto risco contra o crime organizado. Entre carros esportivos,
+          ambientes sofisticados e decisões perigosas, Miami Vice constrói uma narrativa
+          marcada por ação, elegância e tensão constante.
+        </p>
+
+        <p>
+          Mais do que um título de sucesso, trata-se de uma obra que ajudou a definir
+          uma estética inteira no audiovisual, combinando suspense policial com um visual
+          urbano que se tornou inesquecível.
+        </p>
+      </div>
+
+      <div class="card-imagem">
+        <img src="mv2.jpg" alt="Carro esportivo em frente ao cenário do filme">
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="item">
+        <h3>Data</h3>
+        <p>Amanhã</p>
+      </div>
+
+      <div class="item">
+        <h3>Horário</h3>
+        <p>20h00</p>
+      </div>
+
+      <div class="item">
+        <h3>Local</h3>
+        <p>Cinema Prime - Sala Especial</p>
+      </div>
+
+      <div class="item">
+        <h3>Classificação</h3>
+        <p>Consulte a bilheteria local</p>
+      </div>
+    </section>
+
+    <section class="secao texto-centro">
+      <h2>Por que reservar antecipadamente</h2>
+
+      <p>
+        A sessão de amanhã foi organizada como um evento especial para o público que aprecia
+        grandes clássicos de ação no cinema. Por isso, a reserva antecipada é a melhor forma
+        de garantir conforto, organização na entrada e mais segurança no atendimento.
+      </p>
+
+      <p>
+        Ao realizar sua reserva, você agiliza seu acesso e assegura sua participação em uma
+        noite pensada para quem valoriza boas histórias, imagens marcantes e uma experiência
+        cinematográfica completa.
+      </p>
+    </section>
+
+    <section class="reserva" id="reserva">
+      <div class="reserva-texto">
+        <img src="logo_mv.svg" alt="Logo Miami Vice" class="logo-menor">
+
+        <h2>Reserve sua vaga para a sessão de amanhã</h2>
+
+        <p>
+          Preencha seus dados para solicitar sua reserva antecipada. O cadastro é simples,
+          rápido e ajuda a organizar a entrada do público para a sessão especial de Miami Vice.
+        </p>
+
+        <p>
+          Informe seus dados corretamente para confirmar sua solicitação. Após o preenchimento,
+          sua reserva poderá ser validada pela equipe de atendimento conforme a disponibilidade
+          de lugares.
+        </p>
+
+        <h3>Campos esperados</h3>
+        <ul>
+          <li>Nome completo</li>
+          <li>E-mail</li>
+          <li>Confirmar e-mail</li>
+          <li>Telefone</li>
+        </ul>
+
+        <h3>Validações esperadas</h3>
+        <ul>
+          <li>Verificar campos vazios</li>
+          <li>Comparar e-mail e confirmar e-mail</li>
+        </ul>
+
+        <p class="urgencia">
+          Sessão programada para amanhã, com vagas sujeitas à disponibilidade.
+        </p>
+      </div>
+
+      <div class="area-formulario">
+        <h3>Garanta sua vaga para amanhã</h3>
+        <p>Preencha o formulário ao lado e solicite sua reserva para a sessão especial de Miami Vice.</p>
+
+        <div class="caixa-vazia">
+          <form>
+            <label>Nome</label><br>
+            <input type="text"id="Nome" autocomplete="name" size="50" required> <br>
+            <label>Telefone</label><br>
+            <input type="tel"id="Telefone" maxlength="11" autocomplete="tel"><br>
+            <label> Email </label><br>
+            <input type="email" id="Email" autocomplete="email" size="50" required><br>
+            <label>Quantidade de ingressos</label><br>
+            <input type="number" id="Ingressos" min="1" max="6" step="2" required> <br> 
+            <label>Data de Nascimento</label><br>
+            <input type="date" id="dnascimento" required><br>
+            <fieldset>
+              <legend>Quer Pipoca?</legend>
+              <label>
+                <input type="radio" name="pipoca" value="sim" required> Sim 
+              </label>
+              <label>
+                <input type="radio" name="pipoca" value="nao"> Não
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Quer Bebidas?</legend>
+              <label>
+                <input type="checkbox"name="bebidas[]"value="agua"> Água
+              </label>
+              <label>
+                  <input type="checkbox"name="bebidas[]"value="coca"> Coca-Cola
+              </label>
+            </fieldset>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button><!--Botão reset-->
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>
+        Cinema Prime - programação especial para quem gosta de grandes filmes,
+        experiências marcantes e lançamentos com clima de evento.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
